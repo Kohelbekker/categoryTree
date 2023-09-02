@@ -11,3 +11,5 @@ Here is list of features:
 - Styling.
 - App support multiple trees.
 - Some unit tests.
+
+![categoryTree](./docs/categoryTree.png)
