@@ -1,0 +1,44 @@
+.node {
+  display: flex;
+}
+
+.node svg {
+  display: none;
+}
+
+.node:hover svg {
+  display: inline;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  margin: 0 3px;
+  min-width: 20px;
+}
+
+.icon:hover {
+  opacity: 1;
+}
+
+.icon:active {
+  transform: scale(0.9);
+}
+
+.icon svg {
+  height: 100%;
+  max-height: 15px;
+}
+
+.placeholder {
+  min-width: 20px;
+  margin: 0 4px;
+}
